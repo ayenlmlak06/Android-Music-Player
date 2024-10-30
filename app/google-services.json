@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "706885137724",
+    "project_id": "musicdatafinal",
+    "storage_bucket": "musicdatafinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706885137724:android:f134f48180e912a3a41a39",
+        "android_client_info": {
+          "package_name": "com.example.finallistener"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "706885137724-m3k3jdut972j4e49m50njs53gikvapu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATZePvZALsja0rXli2ftfhkEy_o2O2LGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "706885137724-m3k3jdut972j4e49m50njs53gikvapu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

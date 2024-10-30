@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginTop="10dp"
+    android:focusable="true"
+    android:clickable="true"
+    >
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/music_placeholder"
+        android:id="@+id/iv_AtWork"/>
+
+    <TextView
+        android:id="@+id/tv_TitleSong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/iv_AtWork"
+        android:layout_toRightOf="@+id/iv_AtWork"
+        android:paddingEnd="50dp"
+        android:paddingRight="50dp"
+        android:text="Song title"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_ArtistSong"
+        android:layout_toRightOf="@id/iv_AtWork"
+        android:layout_toEndOf="@+id/iv_AtWork"
+        android:text="Artiste"
+        android:layout_below="@+id/tv_TitleSong"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tv_DurationSong"
+        android:text="3:30"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tv_DurationSong"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_play_circle_outline_white"
+        android:visibility="invisible"
+        android:id="@+id/iv_PlaySong"/>
+
+
+</RelativeLayout>
